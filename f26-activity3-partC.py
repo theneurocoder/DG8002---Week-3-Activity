@@ -18,7 +18,7 @@ number_of_people_string = input("Enter the number of people in your party: ")
 meal_cost = float(meal_cost_string)
 tip_percentage = float(tip_percentage_string)
 tip_rate = tip_percentage / 100
-number_of_people = float(number_of_people_string)
+number_of_people = int(number_of_people_string)
 
 # TODO 2: Calculate the dollar amount of the tip.
 tip_amount = tip_rate * meal_cost
