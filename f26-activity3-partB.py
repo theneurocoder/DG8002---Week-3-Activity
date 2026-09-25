@@ -8,15 +8,15 @@
 # Start with a temperature of 20 degrees Celsius.
 
 # TODO 1: Create a variable for the Celsius temperature and assign it 20.
-celcius_string = input("Enter the temperature in Celcius: ")
-celcius = int(celcius_string)
+celsius_string = input("Enter the temperature in celsius: ")
+celsius = int(celsius_string)
 
 # TODO 2: Use the formula above to calculate Fahrenheit.
 # Store the result in a separate variable.
-fahrenheit = celcius * 9 / 5 + 32
+fahrenheit = celsius * 9 / 5 + 32
 
 # TODO 3: Print a clear message showing both temperatures and their units.
-print(celcius_string + "°C is equal to " + str(fahrenheit) + "°F.")
+print(celsius_string + "°C is equal to " + str(fahrenheit) + "°F.")
 
 # CHECK YOUR WORK
 # Input: 20 degrees Celsius
